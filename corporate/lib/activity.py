@@ -6,7 +6,7 @@ from decimal import Decimal
 from typing import Any
 from urllib.parse import urlencode
 
-from django.conf import settings
+from django.conf  settings
 from django.db import connection
 from django.db.backends.utils import CursorWrapper
 from django.db.models import Prefetch
